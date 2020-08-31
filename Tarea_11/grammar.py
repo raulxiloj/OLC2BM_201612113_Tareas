@@ -140,6 +140,8 @@ parser = yacc.yacc()
 
 # Procedemos a probarlo
 # Cadena de entrada: 1 + 5 * 7 + 4 / 2
-input = "1 + 5 * 7 + 4 / 2 + (2 + 2)"
+print("Entrada:")
+input = "1 + 5 * 7 + 4 / 2 + 20"
 print(input)
+print("Salida - C3D:")
 parser.parse(input)
