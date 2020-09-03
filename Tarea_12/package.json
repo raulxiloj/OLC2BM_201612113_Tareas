@@ -1,0 +1,17 @@
+{
+  "name": "tarea_12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js",
+    "jison": "jison ./src/grammar/grammar.jison -o ./src/grammar/grammar.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.6.3",
+    "nodemon": "^2.0.4"
+  }
+}
